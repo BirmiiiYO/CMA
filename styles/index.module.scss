@@ -4,6 +4,15 @@
     margin: 0 auto;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,
             #CAF2FA);
+            @media (max-width:870px) {
+                height: 2050px;
+
+            }
+            @media (max-width:800px) {
+                height: 3100px;
+
+            }
+        
 }
 
 .wrapper {
@@ -13,6 +22,10 @@
 .content {
     display: flex;
     justify-content: space-between;
+    @media (max-width:800px) {
+        display: block;
+        
+    }
 }
 
 .who {
@@ -52,6 +65,9 @@
     border: 2px solid #068CA6;
     border-radius: 10px;
     margin-right: 36px;
+    @media (max-width:800px) {
+        margin-right: 0px;
+    }
 
     &:last-child {
         padding-top: 21px;
@@ -70,6 +86,9 @@
     border: 2px solid #068CA6;
     border-radius: 10px;
     margin-right: 36px;
+    @media (max-width:800px) {
+        margin-right: 0px;
+    }
 
 }
 
@@ -92,6 +111,9 @@
     line-height: 17px;
     color: #2A477D;
     margin-bottom: 111px;
+    @media (max-width:800px){
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -102,9 +124,15 @@
 
 .circ {
     margin-top: -545px;
+    @media (max-width:800px){
+        margin-top: 0;
+    }
 }
 
 .imageFooter {
     display: block;
     margin: 273px auto 0;
+    @media (max-width:800px){
+        margin: 0 auto;
+    }
 }

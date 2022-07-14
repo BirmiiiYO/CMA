@@ -49,8 +49,9 @@ h1{
     $rot: ($rot + $angle);
   }
 }
-
-.advantages {
+@media (min-width:800px){
+.advantages 
+{
   
   &-circle {
     @include distribute-on-circle(8, 30em, 6em);
@@ -63,6 +64,7 @@ h1{
     }
     
   }
+}
 }
 
 .plus{
